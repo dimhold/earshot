@@ -1,0 +1,40 @@
+{
+  "name": "earshot",
+  "version": "0.1.0",
+  "description": "A live transcript of whatever your machine is hearing, produced entirely on your machine.",
+  "license": "MIT",
+  "author": "Dmitry Semenkevich <dimhold@gmail.com>",
+  "type": "module",
+  "bin": {
+    "earshot": "./bin/earshot.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "download-model": "node scripts/download-model.mjs",
+    "make-fixture": "node scripts/make-fixture.mjs"
+  },
+  "keywords": [
+    "transcription",
+    "speech-to-text",
+    "whisper",
+    "faster-whisper",
+    "local-first",
+    "privacy",
+    "offline",
+    "audio-capture",
+    "loopback",
+    "live-transcript"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

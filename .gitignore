@@ -1,0 +1,20 @@
+node_modules/
+dist/
+
+# Python virtualenv for the transcription sidecar
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded speech models (hundreds of MB, never commit)
+models/
+
+# Transcripts are recordings of real conversations. Keep them out of git.
+transcripts/
+*.transcript.txt
+*.transcript.jsonl
+
+# Local scratch
+.DS_Store
+Thumbs.db
+*.log

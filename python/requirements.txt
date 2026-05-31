@@ -1,0 +1,13 @@
+# Local transcription sidecar. CPU only, all prebuilt wheels, no compiler needed.
+#
+#   python -m venv .venv
+#   .venv/bin/python -m pip install -r python/requirements.txt        (macOS, Linux)
+#   .venv\Scripts\python -m pip install -r python\requirements.txt    (Windows)
+#
+# faster-whisper is MIT licensed and runs entirely offline once the model
+# weights have been downloaded once.
+faster-whisper==1.1.0
+numpy>=1.24
+# faster-whisper 1.1.0 imports requests in utils.py without declaring it, so a
+# clean install crashes on import without this line.
+requests>=2.31

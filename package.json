@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A live transcript of whatever your machine is hearing, produced entirely on your machine.",
   "license": "MIT",
-  "author": "Dmitry Semenkevich <dimhold@gmail.com>",
+  "author": "Dmitriy Semenkevich <dimhold@gmail.com>",
   "type": "module",
   "bin": {
     "earshot": "./bin/earshot.mjs"

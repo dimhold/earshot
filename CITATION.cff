@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "earshot"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: MIT
+repository-code: "https://github.com/dimhold/earshot"
+abstract: "A live transcript of whatever your machine is hearing, produced entirely on your machine. No account, no API key, no upload and no network call after the model weights are on disk."
+keywords:
+  - "speech recognition"
+  - "local first"
+  - "privacy"
+  - "whisper"
+  - "transcription"

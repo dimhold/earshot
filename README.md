@@ -264,6 +264,19 @@ green checkmark would be worse than saying so.
   with crosstalk, accents and bad microphones.
 - Windows and macOS need a virtual audio device for system capture, as above.
 
+## Prior work
+
+Checked 2026-08-27. This niche closed during 2025.
+
+- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) is the reference local
+  implementation.
+- [Handy](https://github.com/cjpais/Handy) grew to roughly 30k stars in 18
+  months on the same pitch: local transcription, nothing uploaded.
+- Apple shipped on device transcription in the OS.
+
+This tool stays useful to its author and to anyone who wants a plain Node
+pipeline with a live view and no network calls. It is not a new category.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
